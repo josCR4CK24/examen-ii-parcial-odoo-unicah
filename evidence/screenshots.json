@@ -1,0 +1,86 @@
+{
+  "1": [
+    {
+      "file": "evidence/screenshots/parte1_estudiante.jpg",
+      "caption": "Contacto estudiante: cuenta 0801200012 y carrera visibles en la pestaña UNICAH."
+    },
+    {
+      "file": "evidence/screenshots/parte1_docente.jpg",
+      "caption": "Contacto docente: cuenta y carrera ocultas."
+    }
+  ],
+  "2": [
+    {
+      "file": "evidence/screenshots/parte2_convenios.jpg",
+      "caption": "Los tres convenios originales activos: estudiantes 15 %, docentes 10 % y administrativos 5 %."
+    }
+  ],
+  "3": [
+    {
+      "file": "evidence/screenshots/parte3_boton.jpg",
+      "caption": "Propuesta automática del convenio estudiantil y botón Aplicar convenio en el menú de acciones del encabezado adaptable."
+    },
+    {
+      "file": "evidence/screenshots/parte3_descuentos.jpg",
+      "caption": "Cotización S00013: sección y dos productos, ambos al 15 %, total 340 y ahorro 60."
+    },
+    {
+      "file": "evidence/screenshots/parte3_chatter.jpg",
+      "caption": "Chatter real de S00013: aplicación del Convenio Estudiantes al 15 %."
+    }
+  ],
+  "4": [
+    {
+      "file": "evidence/screenshots/parte4_cuenta.jpg",
+      "caption": "Intento de guardar una cuenta de ocho dígitos: rechazado por el servidor."
+    },
+    {
+      "file": "evidence/screenshots/parte4_porcentaje.jpg",
+      "caption": "Intento de guardar 50 %: rechazado. Se descartaron los cambios inválidos."
+    },
+    {
+      "file": "evidence/screenshots/parte4_fechas.jpg",
+      "caption": "Intento de guardar fecha final anterior a la inicial: rechazado."
+    },
+    {
+      "file": "evidence/screenshots/parte4_limite.jpg",
+      "caption": "Confirmación de S00020: rechazada porque el estudiante solicita 12 unidades y el límite es 10."
+    },
+    {
+      "file": "evidence/screenshots/parte4_docente_confirmado.jpg",
+      "caption": "S00021 confirmado: el docente sí puede comprar 12 unidades."
+    },
+    {
+      "file": "evidence/screenshots/parte4_docente_12.jpg",
+      "caption": "Línea de S00021: doce unidades, comprobadas en la venta confirmada."
+    }
+  ],
+  "5": [
+    {
+      "file": "evidence/screenshots/parte5_lista.jpg",
+      "caption": "Filtro Con convenio y agrupación Convenio aplicados. S00013 muestra ahorro 60 y total 340; el pie agrega el ahorro."
+    }
+  ],
+  "6": [
+    {
+      "file": "evidence/screenshots/parte6_prestamo.jpg",
+      "caption": "Formulario de préstamo: equipo, solicitante, responsable, fechas y estado Prestado."
+    },
+    {
+      "file": "evidence/screenshots/parte6_duracion.jpg",
+      "caption": "Duración calculada y almacenada: tres días entre el 13 y el 15 de noviembre."
+    },
+    {
+      "file": "evidence/screenshots/parte6_equipo.jpg",
+      "caption": "Inventario con código UNICAH-TIC-001, categoría, disponibilidad calculada e historial de préstamos."
+    },
+    {
+      "file": "evidence/screenshots/parte6_devolucion.jpg",
+      "caption": "Devolución ejecutada desde la interfaz: estado Devuelto y fecha real registrada."
+    },
+    {
+      "file": "evidence/screenshots/parte6_herencia.jpg",
+      "caption": "Herencia de res.partner: pestaña Equipos UNICAH con historial del solicitante."
+    }
+  ]
+}

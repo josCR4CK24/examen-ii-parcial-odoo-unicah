@@ -1,6 +1,10 @@
-﻿__pycache__/
+ï»¿__pycache__/
 *.pyc
 .venv/
 venv/
 .env
 .vscode/
+
+.odoo-runtime/
+tmp/
+evidence/server.log

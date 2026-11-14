@@ -1,0 +1,15 @@
+2026-11-14 01:06:25,075 25892 WARNING ? odoo.tools.config: option addons_path, no such directory 'c:\\odoofuente\\examen_final\\addons', skipped
+2026-11-14 01:06:25,077 25892 INFO ? odoo: Odoo version 20.0
+2026-11-14 01:06:25,077 25892 INFO ? odoo: Using configuration file at c:\odoofuente\odoo\odoo_pg18.conf
+2026-11-14 01:06:25,077 25892 INFO ? odoo: addons paths: _NamespacePath(['C:\\OdooFuente\\odoo\\odoo\\addons', 'c:\\users\\50497\\appdata\\local\\openerp s.a\\odoo\\addons\\20.0', 'c:\\odoofuente\\odoo\\addons', 'c:\\odoofuente\\odoo\\odoo\\addons', 'c:\\odoofuente\\custom_addons', 'c:\\odoofuente\\examen_final'])
+2026-11-14 01:06:25,295 25892 INFO ? odoo: database: odoo@localhost:5432
+2026-11-14 01:06:26,907 25892 INFO ? odoo.service.server.ThreadedServer: Initiating shutdown
+2026-11-14 01:06:26,907 25892 INFO ? odoo.service.server.ThreadedServer: Hit CTRL-C again or send a second signal to force the shutdown.
+2026-11-14 01:06:27,018 25892 INFO examen_unicah odoo.modules.loading: loading 1 modules...
+2026-11-14 01:06:27,022 25892 INFO examen_unicah odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra)
+2026-11-14 01:06:27,067 25892 INFO examen_unicah odoo.modules.loading: loading 64 modules...
+2026-11-14 01:06:27,897 25892 WARNING examen_unicah odoo.addons.mail.controllers.attachment: markdown2 is not installed, markdown will not be rendered
+2026-11-14 01:06:29,057 25892 INFO examen_unicah odoo.modules.loading: 64 modules loaded in 1.99s, 0 queries (+0 extra)
+2026-11-14 01:06:29,227 25892 INFO examen_unicah odoo.modules.loading: Modules loaded.
+2026-11-14 01:06:29,312 25892 INFO examen_unicah odoo.registry: Registry loaded in 2.387s
+2026-11-14 01:06:29,423 25892 INFO examen_unicah odoo.registry: Caches invalidated, signaling through the database: ['default']

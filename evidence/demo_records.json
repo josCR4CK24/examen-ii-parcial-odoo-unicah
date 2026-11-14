@@ -1,0 +1,25 @@
+{
+  "student": 33,
+  "teacher": 34,
+  "order": 13,
+  "equipo": 11,
+  "prestamo": 7,
+  "ahorro": 60.0,
+  "convenios": [
+    {
+      "id": 3,
+      "name": "Convenio Administrativos",
+      "porcentaje": 5.0
+    },
+    {
+      "id": 2,
+      "name": "Convenio Docentes",
+      "porcentaje": 10.0
+    },
+    {
+      "id": 1,
+      "name": "Convenio Estudiantes",
+      "porcentaje": 15.0
+    }
+  ]
+}

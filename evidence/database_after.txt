@@ -1,0 +1,4 @@
+[[1, "Convenio Estudiantes", "estudiante", "15.00", "2026-11-01", "2026-12-31", true], [2, "Convenio Docentes", "docente", "10.00", "2026-11-01", "2026-12-31", true], [3, "Convenio Administrativos", "administrativo", "5.00", "2026-11-01", "2026-12-31", true], [4, "Convenio estudiantil", "estudiante", "15.00", "2026-01-01", null, false], [5, "Convenio docente", "docente", "10.00", "2026-01-01", null, false]]
+[["tienda_unicah", "convenio_estudiantes", 1], ["tienda_unicah", "convenio_docentes", 2]]
+[[6, "Estudiante Prueba UNICAH", "20260001"], [33, "Estudiante Evidencia UNICAH", "0801200012"]]
+[["prueba.convenios"], ["admin"]]

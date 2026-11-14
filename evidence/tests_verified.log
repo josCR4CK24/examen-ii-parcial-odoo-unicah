@@ -1,0 +1,80 @@
+2026-11-14 01:11:45,847 27388 WARNING ? odoo.tools.config: option addons_path, no such directory 'c:\\odoofuente\\examen_final\\addons', skipped
+2026-11-14 01:11:45,849 27388 INFO ? odoo: Odoo version 20.0
+2026-11-14 01:11:45,849 27388 INFO ? odoo: Using configuration file at c:\odoofuente\odoo\odoo_pg18.conf
+2026-11-14 01:11:45,849 27388 INFO ? odoo: addons paths: _NamespacePath(['C:\\OdooFuente\\odoo\\odoo\\addons', 'c:\\odoofuente\\examen_final\\.odoo-runtime\\addons\\20.0', 'c:\\odoofuente\\odoo\\addons', 'c:\\odoofuente\\odoo\\odoo\\addons', 'c:\\odoofuente\\custom_addons', 'c:\\odoofuente\\examen_final'])
+2026-11-14 01:11:45,850 27388 INFO ? odoo: database: odoo@localhost:5432
+2026-11-14 01:11:47,715 27388 CRITICAL ? odoo.service.server: Thread odoo.service.httpd (37308) Exception occurred, quitting...
+Traceback (most recent call last):
+  File "C:\OdooFuente\odoo\odoo\service\server.py", line 472, in http_server_thread
+    server = socket.create_server(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\50497\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 948, in create_server
+    raise error(err.errno, msg) from None
+OSError: [Errno 10048] Solo se permite un uso de cada dirección de socket (protocolo/dirección de red/puerto) (while attempting to bind on address ('127.0.0.1', 8070))
+2026-11-14 01:11:47,744 27388 INFO examen_unicah odoo.tests.common: Importing test framework
+2026-11-14 01:11:47,861 27388 INFO examen_unicah odoo.modules.loading: loading 1 modules...
+2026-11-14 01:11:47,866 27388 INFO examen_unicah odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra)
+2026-11-14 01:11:47,902 27388 INFO examen_unicah odoo.modules.loading: updating modules list
+2026-11-14 01:11:47,909 27388 INFO examen_unicah odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a
+2026-11-14 01:11:49,365 27388 INFO examen_unicah odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Tienda UNICAH', 'UNICAH - Préstamo de equipos'] to user __system__ #1 via n/a
+2026-11-14 01:11:49,365 27388 INFO examen_unicah odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Tienda UNICAH', 'UNICAH - Préstamo de equipos'] to user __system__ #1 via n/a
+2026-11-14 01:11:50,245 27388 INFO examen_unicah odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a
+2026-11-14 01:11:50,375 27388 INFO examen_unicah odoo.modules.loading: loading 64 modules...
+2026-11-14 01:11:51,274 27388 WARNING examen_unicah odoo.addons.mail.controllers.attachment: markdown2 is not installed, markdown will not be rendered
+2026-11-14 01:11:51,645 27388 INFO examen_unicah odoo.modules.loading: Loading module unicah_equipos (39/64)
+2026-11-14 01:11:51,783 27388 INFO examen_unicah odoo.registry: module unicah_equipos: creating or updating database tables
+2026-11-14 01:11:51,981 27388 INFO examen_unicah odoo.modules.loading: loading unicah_equipos/security/ir.access.csv
+2026-11-14 01:11:52,118 27388 INFO examen_unicah odoo.modules.loading: loading unicah_equipos/views/equipos_views.xml
+2026-11-14 01:11:52,301 27388 INFO examen_unicah odoo.modules.loading: loading unicah_equipos/views/res_partner_views.xml
+2026-11-14 01:11:52,378 27388 INFO examen_unicah odoo.registry: Registry changed, signaling through the database
+2026-11-14 01:11:52,393 27388 INFO examen_unicah odoo.modules.loading: Module unicah_equipos loaded in 0.75s, 269 queries (+269 other)
+2026-11-14 01:11:53,264 27388 INFO examen_unicah odoo.modules.loading: Loading module tienda_unicah (64/64)
+2026-11-14 01:11:53,455 27388 INFO examen_unicah odoo.registry: module tienda_unicah: creating or updating database tables
+2026-11-14 01:11:53,627 27388 INFO examen_unicah odoo.modules.loading: loading tienda_unicah/security/ir.access.csv
+2026-11-14 01:11:53,681 27388 INFO examen_unicah odoo.modules.loading: loading tienda_unicah/data/convenio_data.xml
+2026-11-14 01:11:53,686 27388 INFO examen_unicah odoo.modules.loading: loading tienda_unicah/views/res_partner_views.xml
+2026-11-14 01:11:53,781 27388 INFO examen_unicah odoo.modules.loading: loading tienda_unicah/views/convenio_views.xml
+2026-11-14 01:11:53,817 27388 INFO examen_unicah odoo.modules.loading: loading tienda_unicah/views/sale_order_views.xml
+2026-11-14 01:11:54,006 27388 INFO examen_unicah odoo.registry: Registry changed, signaling through the database
+2026-11-14 01:11:54,031 27388 INFO examen_unicah odoo.modules.loading: Module tienda_unicah loaded in 0.77s, 329 queries (+329 other)
+2026-11-14 01:11:54,031 27388 INFO examen_unicah odoo.modules.loading: 64 modules loaded in 3.66s, 598 queries (+598 extra)
+2026-11-14 01:11:54,497 27388 INFO examen_unicah odoo.registry: Registry changed, signaling through the database
+2026-11-14 01:11:54,499 27388 INFO examen_unicah odoo.registry: verifying fields for every extended model
+2026-11-14 01:11:55,481 27388 INFO examen_unicah odoo.modules.loading: Modules loaded.
+2026-11-14 01:11:55,498 27388 INFO examen_unicah odoo.registry: Registry changed, signaling through the database
+2026-11-14 01:11:55,503 27388 INFO examen_unicah odoo.registry: Registry loaded in 7.781s
+2026-11-14 01:11:55,504 27388 INFO examen_unicah odoo.service.server: Starting post tests
+2026-11-14 01:11:55,735 27388 INFO examen_unicah odoo.addons.tienda_unicah.tests.test_tienda: Starting TestTienda.test_aplicar_y_ahorro ...
+2026-11-14 01:11:55,982 27388 INFO examen_unicah odoo.models.unlink: User #1 deleted sale.order.line records with IDs: [41]
+2026-11-14 01:11:56,002 27388 INFO examen_unicah odoo.addons.tienda_unicah.tests.test_tienda: Starting TestTienda.test_cuenta ...
+2026-11-14 01:11:56,124 27388 INFO examen_unicah odoo.addons.tienda_unicah.tests.test_tienda: Starting TestTienda.test_datos_iniciales_idempotentes ...
+2026-11-14 01:11:56,129 27388 INFO examen_unicah odoo.addons.tienda_unicah.tests.test_tienda: Starting TestTienda.test_limite_y_super ...
+2026-11-14 01:11:56,318 27388 INFO examen_unicah odoo.addons.tienda_unicah.tests.test_tienda: Starting TestTienda.test_permisos ...
+2026-11-14 01:11:56,580 27388 INFO examen_unicah odoo.addons.base.models.res_users: Group change: user 1 with IP n/a changed groups of user 10 who belonged to [25] with changes [(<Command.SET: 6>, 0, [27])]
+2026-11-14 01:11:56,638 27388 INFO examen_unicah odoo.addons.tienda_unicah.tests.test_tienda: Starting TestTienda.test_porcentaje_y_fechas ...
+2026-11-14 01:11:56,646 27388 INFO examen_unicah odoo.addons.tienda_unicah.tests.test_tienda: Starting TestTienda.test_seleccion_y_filtros ...
+2026-11-14 01:11:56,731 27388 INFO examen_unicah odoo.addons.tienda_unicah.tests.test_tienda: Starting TestTienda.test_vigencia_y_estado ...
+2026-11-14 01:11:56,911 27388 INFO examen_unicah odoo.addons.base.models.ir_attachment: _file_gc could not unlink c:\odoofuente\examen_final\.odoo-runtime\filestore\examen_unicah\43/43a08da549306568187bb289db61a91a5b7b66a7
+Traceback (most recent call last):
+  File "C:\OdooFuente\odoo\odoo\addons\base\models\ir_attachment.py", line 369, in _gc_file_store_unsafe
+    os.unlink(del_full_path)
+PermissionError: [WinError 5] Acceso denegado: 'c:\\odoofuente\\examen_final\\.odoo-runtime\\filestore\\examen_unicah\\43/43a08da549306568187bb289db61a91a5b7b66a7.__gc'
+2026-11-14 01:11:56,916 27388 INFO examen_unicah odoo.addons.base.models.ir_attachment: filestore gc 3 checked, 0 removed
+2026-11-14 01:11:56,931 27388 INFO examen_unicah odoo.addons.unicah_equipos.tests.test_equipos: Starting TestEquipos.test_ciclo_y_herencia ...
+2026-11-14 01:11:57,097 27388 INFO examen_unicah odoo.addons.unicah_equipos.tests.test_equipos: Starting TestEquipos.test_permisos ...
+2026-11-14 01:11:57,405 27388 INFO examen_unicah odoo.models.unlink: User #11 deleted mail.message records with IDs: [610]
+2026-11-14 01:11:57,411 27388 INFO examen_unicah odoo.addons.unicah_equipos.tests.test_equipos: Starting TestEquipos.test_validaciones ...
+2026-11-14 01:11:57,512 27388 INFO examen_unicah odoo.addons.base.models.ir_attachment: _file_gc could not unlink c:\odoofuente\examen_final\.odoo-runtime\filestore\examen_unicah\40/403fea21dd0f1f3820ffe8d2ac485c90ac31aa01
+Traceback (most recent call last):
+  File "C:\OdooFuente\odoo\odoo\addons\base\models\ir_attachment.py", line 369, in _gc_file_store_unsafe
+    os.unlink(del_full_path)
+PermissionError: [WinError 5] Acceso denegado: 'c:\\odoofuente\\examen_final\\.odoo-runtime\\filestore\\examen_unicah\\40/403fea21dd0f1f3820ffe8d2ac485c90ac31aa01.__gc'
+2026-11-14 01:11:57,514 27388 INFO examen_unicah odoo.addons.base.models.ir_attachment: filestore gc 1 checked, 0 removed
+2026-11-14 01:11:57,529 27388 INFO examen_unicah odoo.service.server: 11 post-tests in 2.03s, 931 queries
+2026-11-14 01:11:57,529 27388 INFO examen_unicah odoo.tests.stats: tienda_unicah: 10 tests 1.42s 648 queries
+2026-11-14 01:11:57,530 27388 INFO examen_unicah odoo.tests.stats: unicah_equipos: 5 tests 0.60s 283 queries
+2026-11-14 01:11:57,530 27388 INFO examen_unicah odoo.tests.result: 0 failed, 0 error(s) of 11 tests when loading database 'examen_unicah'
+2026-11-14 01:11:57,530 27388 INFO examen_unicah odoo.service.server.ThreadedServer: Initiating shutdown
+2026-11-14 01:11:57,530 27388 INFO examen_unicah odoo.service.server.ThreadedServer: Hit CTRL-C again or send a second signal to force the shutdown.
+2026-11-14 01:11:57,530 27388 INFO examen_unicah odoo.addons.bus.websocket: Disconnecting 0 websockets
+2026-11-14 01:11:57,644 27388 INFO examen_unicah odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections 

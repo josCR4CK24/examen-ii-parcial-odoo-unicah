@@ -1,0 +1,17 @@
+2026-11-14 01:09:49,149 36040 WARNING ? odoo.tools.config: option addons_path, no such directory 'c:\\odoofuente\\examen_final\\addons', skipped
+2026-11-14 01:09:49,154 36040 INFO ? odoo: Odoo version 20.0
+2026-11-14 01:09:49,154 36040 INFO ? odoo: Using configuration file at c:\odoofuente\odoo\odoo_pg18.conf
+2026-11-14 01:09:49,154 36040 INFO ? odoo: addons paths: _NamespacePath(['C:\\OdooFuente\\odoo\\odoo\\addons', 'c:\\odoofuente\\examen_final\\.odoo-runtime\\addons\\20.0', 'c:\\odoofuente\\odoo\\addons', 'c:\\odoofuente\\odoo\\odoo\\addons', 'c:\\odoofuente\\custom_addons', 'c:\\odoofuente\\examen_final'])
+2026-11-14 01:09:49,154 36040 INFO ? odoo: database: odoo@localhost:5432
+2026-11-14 01:09:50,888 36040 INFO ? odoo.service.server.ThreadedServer: Initiating shutdown
+2026-11-14 01:09:50,891 36040 INFO ? odoo.service.server.ThreadedServer: Hit CTRL-C again or send a second signal to force the shutdown.
+2026-11-14 01:09:51,011 36040 INFO examen_unicah odoo.modules.loading: loading 1 modules...
+2026-11-14 01:09:51,016 36040 INFO examen_unicah odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra)
+2026-11-14 01:09:51,060 36040 INFO examen_unicah odoo.modules.loading: loading 64 modules...
+2026-11-14 01:09:51,785 36040 WARNING examen_unicah odoo.addons.mail.controllers.attachment: markdown2 is not installed, markdown will not be rendered
+2026-11-14 01:09:52,949 36040 INFO examen_unicah odoo.modules.loading: 64 modules loaded in 1.89s, 0 queries (+0 extra)
+2026-11-14 01:09:53,115 36040 INFO examen_unicah odoo.modules.loading: Modules loaded.
+2026-11-14 01:09:53,173 36040 INFO examen_unicah odoo.registry: Registry loaded in 2.262s
+2026-11-14 01:09:53,770 36040 INFO examen_unicah odoo.addons.base.models.res_users: Group change: user 1 with IP n/a changed groups of user 2 who belonged to [27, 33, 23, 38, 5] with changes [(<Command.LINK: 4>, 40, 0)]
+2026-11-14 01:09:53,870 36040 INFO examen_unicah odoo.addons.base.models.res_users: Group change: user 1 with IP n/a changed groups of user 5 who belonged to [1] with changes [(<Command.LINK: 4>, 40, 0)]
+2026-11-14 01:09:53,921 36040 INFO examen_unicah odoo.registry: Caches invalidated, signaling through the database: ['default']
