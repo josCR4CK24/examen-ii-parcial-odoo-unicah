@@ -1,0 +1,3 @@
+id,name,model_id,group_id/id,operation,domain
+access_convenio_usuario,Convenios lectura,tienda.unicah.convenio,base.group_user,r,
+access_convenio_admin,Convenios administracion,tienda.unicah.convenio,sales_team.group_sale_manager,crud,

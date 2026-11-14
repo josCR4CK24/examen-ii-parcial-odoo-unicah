@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_convenio_list" model="ir.ui.view">
+        <field name="name">tienda.unicah.convenio.list</field>
+        <field name="model">tienda.unicah.convenio</field>
+        <field name="arch" type="xml">
+            <list string="Convenios UNICAH">
+                <field name="name"/>
+                <field name="tipo_cliente"/>
+                <field name="porcentaje_descuento"/>
+                <field name="fecha_inicio"/>
+                <field name="fecha_fin"/>
+                <field name="activo"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_convenio_form" model="ir.ui.view">
+        <field name="name">tienda.unicah.convenio.form</field>
+        <field name="model">tienda.unicah.convenio</field>
+        <field name="arch" type="xml">
+            <form string="Convenio UNICAH">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="tipo_cliente"/>
+                        <field name="porcentaje_descuento"/>
+                        <field name="fecha_inicio"/>
+                        <field name="fecha_fin"/>
+                        <field name="activo"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_convenios_unicah"
+            model="ir.actions.act_window">
+        <field name="name">Convenios UNICAH</field>
+        <field name="res_model">tienda.unicah.convenio</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <menuitem
+        id="menu_tienda_unicah"
+        name="Tienda UNICAH"
+        sequence="50"
+        groups="base.group_user"/>
+
+    <menuitem
+        id="menu_convenios_unicah"
+        name="Convenios"
+        parent="menu_tienda_unicah"
+        action="action_convenios_unicah"
+        sequence="10"/>
+
+</odoo>
