@@ -1,0 +1,11 @@
+<odoo noupdate="1">
+    <!-- La función adopta registros existentes; solo crea cuando el tipo no existe. -->
+    <function model="tienda.convenio" name="_cargar_convenio_inicial">
+        <value eval="'convenio_estudiantes'"/>
+        <value eval="{'name': 'Convenio estudiantil', 'tipo_cliente': 'estudiante', 'porcentaje': 15, 'fecha_inicio': '2026-01-01'}"/>
+    </function>
+    <function model="tienda.convenio" name="_cargar_convenio_inicial">
+        <value eval="'convenio_docentes'"/>
+        <value eval="{'name': 'Convenio docente', 'tipo_cliente': 'docente', 'porcentaje': 10, 'fecha_inicio': '2026-01-01'}"/>
+    </function>
+</odoo>
