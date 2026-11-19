@@ -8,3 +8,26 @@ venv/
 .odoo-runtime/
 tmp/
 evidence/server.log
+
+# Credenciales, respaldos y registros privados
+.env.*
+!.env.example
+!.env.sample
+*.secret
+*.secrets
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials.json
+secrets.json
+*.sql
+*.sql.gz
+*.dump
+*.backup
+*.bak
+*.log
+*.log.*
+/deploy/railway/evidence/
